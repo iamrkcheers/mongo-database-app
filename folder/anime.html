@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime</title>
+    <style>
+        h1{
+            animation-name: moveit;
+            animation-duration: 8s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        @keyframes moveit{
+            from{
+                margin-right: 100%;
+                margin-left: 0%;
+                width: 100%
+            }
+            50%{
+                font-family: cursive;
+                font-style: italic;
+                margin-left: 25%;
+                font-size: 60px
+            }
+            to{
+                margin-right: 0%;
+                margin-left: 100%;
+                width: 100%
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>This is my heading !</h1>
+</body>
+</html>
